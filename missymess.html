@@ -4,14 +4,10 @@
     <title>missymess - Styled</title>
     <style>
         body {
-           
             background-color: red; 
-            
-           
-            font-family: ' Verdana';
-            
-            
+            font-family: Verdana;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
@@ -19,17 +15,34 @@
         }
 
         h1 {
-           
-            color:white;
-            font-size: 400;
+            color: white;
+            font-size: 4rem;
             text-transform: uppercase;
-           
+        }
+
+        .back-btn {
+            margin-top: 20px;
+            padding: 12px 24px;
+            background-color: white;
+            color: red;
+            border: none;
+            font-family: Verdana;
+            font-size: 1rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .back-btn:hover {
+            background-color: #f0f0f0;
         }
     </style>
 </head>
 <body>
 
     <h1>missymess</h1>
+    <a href="index.html" class="back-btn">Back to Homepage</a>
 
 </body>
 </html>
