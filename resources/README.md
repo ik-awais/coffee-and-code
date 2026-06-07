@@ -65,7 +65,12 @@ git stash pop              # Apply stashed changes
 ## Best Practices
 
 ### Commit Messages
-- Use clear, descriptive messages
+- One of the four categories of commits:
+- 1. doc: Used when you make any commits in documentation
+- 2. feat: When your code make changes to any features
+- 3. chore: When you perform some restructuring or other works
+- 4. fix: Debugging code
+- Use clear, descriptive messages 
 - Start with a verb in present tense ("Add feature" not "Added feature")
 - Keep the first line under 50 characters
 - Add detailed explanation after a blank line if needed
